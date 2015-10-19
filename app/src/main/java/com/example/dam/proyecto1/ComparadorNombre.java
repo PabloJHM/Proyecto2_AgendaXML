@@ -6,6 +6,6 @@ package com.example.dam.proyecto1;
 public class ComparadorNombre implements java.util.Comparator<Contacto>{
     @Override
     public int compare(Contacto c1, Contacto c2) {
-        return c2.getNombre().compareTo(c1.getNombre());
+        return c2.getNombre().compareToIgnoreCase(c1.getNombre());
     }
 }
