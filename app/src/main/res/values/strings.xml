@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ProyectAgenda</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--________________________________Añadir contacto__________________________________________-->
+    <string name="ctoCabecera">Añadir nuevo contacto</string>
+    <string name="ctoNombre">Nombre del contacto</string>
+    <string name="ctoTlf">Telefono principal del contacto</string>
+    <string name="ctoExtraTlf">Otros telefonos</string>
+    <string name="btConfirm">Guardar</string>
+    <string name="btCancel">Cancelar</string>
+
+    <!--______________________________Modificar contacto_________________________________________-->
+    <string name="edCabecera">Modificar contacto</string>
+    <string name="edNombre">Nombre: </string>
+    <string name="edTlf">Telefono: </string>
+    <string name="edTlfExtra">Otros telefonos: </string>
+
+
+    <!--_________________________________________Menus__________________________________________-->
+    <string name="str_editar">Editar</string>
+    <string name="str_añadir">Añadir</string>
+    <string name="str_borrar">Borrar</string>
+    <string name="str_copiar">Copiar</string>
+    <string name="str_minusAnadir">Agregar telefono</string>
+    <string name="str_ordenarAsc">Ordenar Alfabéticamente Asc</string>
+    <string name="str_ordenarDes">Ordenar Alfabéticamente Des</string>
+
+    <!--___________________________________Mensajes______________________________________________-->
+    <string name="mExtraTlf">Otros teléfonos de \b</string>
+    <string name="elminarq">¿Deseas eliminar a \b</string>
+    <string name="qclose"> \b?</string>
+    <string name="salto"> :\n</string>
+    <string name="menTitulo">Atención</string>
+    <string name="bAceptar">SI</string>
+    <string name="bCancelar">NO</string>
+    <string name="editado">Contacto editado</string>
+    <string name="guardado">Nuevo contacto guardado</string>
+
+
+    <!--_____________________________________KEYS________________________________________________-->
+    <string name="kContacto">contacto</string>
+
+    <!--________________________________Control errores__________________________________________-->
+    <string name="vacio">Te dejaste el nombre y/o el telefono vacio(s)!</string>
+</resources>

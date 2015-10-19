@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ctoCabecera"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ctoNombre"
+        android:id="@+id/etANombre"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ctoTlf"
+        android:id="@+id/etATlf"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ctoExtraTlf"
+        android:id="@+id/etAExtraTlf"
+        android:layout_margin="20dp"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ctoExtraTlf"
+        android:id="@+id/etAExtraTlf2"
+        android:layout_margin="20dp"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btConfirm"
+            android:id="@+id/button"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:onClick="guardar" />
+
+    </LinearLayout>
+</LinearLayout>
