@@ -27,10 +27,15 @@
     <string name="str_minusAnadir">Agregar telefono</string>
     <string name="str_ordenarAsc">Ordenar Alfabéticamente Asc</string>
     <string name="str_ordenarDes">Ordenar Alfabéticamente Des</string>
+    <string name="str_copiaSec">Copia de seguridad</string>
+    <string name="str_leerTotal">Leer copia de seguridad total</string>
+    <string name="str_guardInc">Guardar copia seguridad incremental</string>
+    <string name="str_guardTotal">Guardado Total</string>
 
     <!--___________________________________Mensajes______________________________________________-->
     <string name="mExtraTlf">Otros teléfonos de \b</string>
     <string name="elminarq">¿Deseas eliminar a \b</string>
+    <string name="guardarq">¿Deseas guardar los cambios realizados en la copia de seguridad antes de salir?</string>
     <string name="qclose"> \b?</string>
     <string name="salto"> :\n</string>
     <string name="menTitulo">Atención</string>
@@ -38,7 +43,14 @@
     <string name="bCancelar">NO</string>
     <string name="editado">Contacto editado</string>
     <string name="guardado">Nuevo contacto guardado</string>
+    <string name="lastSync">Ultima sincronizacion:\b</string>
+    <string name="noSync">No ha habido ninguna sincronizacion</string>
 
+    <!--_____________________________________seleccion___________________________________________-->
+    <string name="agenda">Cargar datos de la agenda</string>
+    <string name="xml">Cargar datos de la copia de seguridad</string>
+    <string name="synchro">Sincronizar</string>
+    <string name="check">Sincronizar automaticamente</string>
 
     <!--_____________________________________KEYS________________________________________________-->
     <string name="kContacto">contacto</string>

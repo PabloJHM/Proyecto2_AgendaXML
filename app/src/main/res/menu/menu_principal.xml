@@ -1,5 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".Principal">
     <item android:id="@+id/mnAñadir"
         android:title="@string/str_añadir"/>
@@ -7,4 +6,12 @@
         android:title="@string/str_ordenarDes"/>
     <item android:id="@+id/mnOrdenar2"
         android:title="@string/str_ordenarAsc"/>
+    <item android:id="@+id/mnCopia"
+        android:title="@string/str_copiaSec"/>
+    <item android:id="@+id/mnleertotal"
+        android:title="@string/str_leerTotal"/>
+    <item android:id="@+id/saveInc"
+        android:title="@string/str_guardInc"/>
+    <item android:id="@+id/saveTotal"
+        android:title="@string/str_guardTotal"/>
 </menu>
